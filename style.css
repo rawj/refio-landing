@@ -16,7 +16,6 @@ body {
         Helvetica,
         Arial,
         sans-serif;
-
     background: #ffffff;
     color: #10162f;
     line-height: 1.6;
@@ -37,15 +36,12 @@ header {
     top: 0;
     left: 0;
     right: 0;
-
     z-index: 10;
-
     background: transparent;
 }
 
 .nav {
     height: 82px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,10 +50,8 @@ header {
 .logo {
     color: #ffffff;
     text-decoration: none;
-
     font-size: 22px;
     font-weight: 800;
-
     letter-spacing: 0.22em;
 }
 
@@ -69,12 +63,9 @@ nav {
 
 nav a {
     color: rgba(255, 255, 255, 0.88);
-
     text-decoration: none;
-
     font-size: 14px;
     font-weight: 600;
-
     transition: 0.2s ease;
 }
 
@@ -89,22 +80,16 @@ nav a:hover {
 
 .button {
     display: inline-block;
-
     padding: 14px 24px;
-
     border-radius: 8px;
-
     text-decoration: none;
-
     font-size: 14px;
     font-weight: 700;
-
     transition: 0.25s ease;
 }
 
 .button.primary {
     color: #ffffff;
-
     background:
         linear-gradient(
             135deg,
@@ -112,25 +97,20 @@ nav a:hover {
             #7348ff 55%,
             #b12cff 100%
         );
-
     box-shadow:
         0 10px 30px rgba(91, 69, 255, 0.28);
 }
 
 .button.primary:hover {
     transform: translateY(-2px);
-
     box-shadow:
         0 15px 35px rgba(91, 69, 255, 0.4);
 }
 
 .button.secondary {
     color: #ffffff;
-
     border: 1px solid rgba(255, 255, 255, 0.55);
-
     background: rgba(255, 255, 255, 0.04);
-
     backdrop-filter: blur(8px);
 }
 
@@ -145,13 +125,9 @@ nav a:hover {
 
 .hero {
     position: relative;
-
     overflow: hidden;
-
     min-height: 720px;
-
     padding: 190px 0 140px;
-
     color: #ffffff;
 
     background:
@@ -160,13 +136,11 @@ nav a:hover {
             rgba(112, 41, 255, 0.55),
             transparent 32%
         ),
-
         radial-gradient(
             circle at 55% 85%,
             rgba(0, 145, 255, 0.38),
             transparent 35%
         ),
-
         linear-gradient(
             120deg,
             #020a25 0%,
@@ -178,12 +152,9 @@ nav a:hover {
 
 .hero::before {
     content: "";
-
     position: absolute;
-
     width: 800px;
     height: 250px;
-
     right: -180px;
     top: 250px;
 
@@ -196,20 +167,15 @@ nav a:hover {
         );
 
     filter: blur(45px);
-
     transform: rotate(-18deg);
-
     opacity: 0.8;
 }
 
 .hero::after {
     content: "";
-
     position: absolute;
-
     width: 900px;
     height: 160px;
-
     left: 25%;
     bottom: 20px;
 
@@ -223,9 +189,7 @@ nav a:hover {
         );
 
     filter: blur(35px);
-
     transform: rotate(-10deg);
-
     opacity: 0.7;
 }
 
@@ -236,48 +200,33 @@ nav a:hover {
 
 .eyebrow {
     margin: 0 0 18px;
-
     font-size: 12px;
     font-weight: 800;
-
     letter-spacing: 0.17em;
-
     color: #52a7ff;
 }
 
 .hero h1 {
     max-width: 900px;
-
     margin: 0;
-
     font-size: clamp(46px, 7vw, 78px);
-
     line-height: 1.04;
-
     letter-spacing: -0.05em;
-
     font-weight: 750;
 }
 
 .hero-text {
     max-width: 690px;
-
     margin: 32px 0 0;
-
     font-size: 20px;
-
     line-height: 1.65;
-
     color: rgba(255, 255, 255, 0.78);
 }
 
 .buttons {
     display: flex;
-
     gap: 14px;
-
     margin-top: 42px;
-
     flex-wrap: wrap;
 }
 
@@ -292,21 +241,15 @@ nav a:hover {
 
 .section h2 {
     margin: 0 0 24px;
-
     font-size: clamp(34px, 5vw, 52px);
-
     line-height: 1.1;
-
     letter-spacing: -0.04em;
-
     font-weight: 750;
 }
 
 .section > .container > p:not(.eyebrow) {
     max-width: 700px;
-
     color: #59627a;
-
     font-size: 18px;
 }
 
@@ -317,7 +260,6 @@ nav a:hover {
 
 #api {
     position: relative;
-
     overflow: hidden;
 
     background:
@@ -326,7 +268,6 @@ nav a:hover {
             rgba(104, 82, 255, 0.08),
             transparent 35%
         ),
-
         #f8faff;
 }
 
@@ -336,34 +277,23 @@ nav a:hover {
 
 .features {
     display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
+    grid-template-columns: repeat(3, 1fr);
     gap: 45px;
-
     margin-top: 70px;
 }
 
 .feature {
     position: relative;
-
-    border-top:
-        1px solid #dce2f0;
-
+    border-top: 1px solid #dce2f0;
     padding-top: 26px;
 }
 
 .feature::before {
     content: "";
-
     display: block;
-
     width: 38px;
     height: 4px;
-
     margin-bottom: 22px;
-
     border-radius: 10px;
 
     background:
@@ -376,15 +306,12 @@ nav a:hover {
 
 .feature h3 {
     margin: 0 0 12px;
-
     font-size: 19px;
-
     color: #10162f;
 }
 
 .feature p {
     margin: 0;
-
     color: #69738b;
 }
 
@@ -395,11 +322,8 @@ nav a:hover {
 
 .code-block {
     position: relative;
-
     margin-top: 70px;
-
     border-radius: 14px;
-
     overflow: hidden;
 
     background:
@@ -408,7 +332,6 @@ nav a:hover {
             rgba(102, 50, 255, 0.25),
             transparent 35%
         ),
-
         #080d28;
 
     box-shadow:
@@ -418,15 +341,11 @@ nav a:hover {
 
 .code-block::before {
     content: "●  ●  ●";
-
     display: block;
-
     padding: 18px 24px;
 
     color: #657099;
-
     font-size: 12px;
-
     letter-spacing: 5px;
 
     border-bottom:
@@ -435,9 +354,7 @@ nav a:hover {
 
 .code-block pre {
     margin: 0;
-
     padding: 30px;
-
     overflow-x: auto;
 }
 
@@ -451,7 +368,6 @@ nav a:hover {
         monospace;
 
     font-size: 14px;
-
     line-height: 1.8;
 }
 
@@ -462,7 +378,6 @@ nav a:hover {
 
 .pricing {
     position: relative;
-
     overflow: hidden;
 
     background:
@@ -471,13 +386,11 @@ nav a:hover {
             rgba(0, 137, 255, 0.28),
             transparent 35%
         ),
-
         radial-gradient(
             circle at 85% 45%,
             rgba(148, 45, 255, 0.30),
             transparent 35%
         ),
-
         linear-gradient(
             120deg,
             #d9ecff,
@@ -490,26 +403,30 @@ nav a:hover {
     color: #326cff;
 }
 
+
+/* PLAN GRID
+   Desktop = side by side
+   Mobile = stacked
+*/
+
 .pricing-grid {
     display: grid;
-
-    grid-template-columns:
-        repeat(2, minmax(0, 1fr));
-
+    grid-template-columns: 1fr 1fr;
     gap: 28px;
-
-    margin-top: 55px;
 }
+
+
+/* =========================
+   PRICING CARDS
+========================= */
 
 .pricing-card {
     position: relative;
 
-    max-width: none;
-
     padding: 42px;
 
     background:
-        rgba(255, 255, 255, 0.9);
+        rgba(255, 255, 255, 0.90);
 
     border:
         1px solid rgba(255, 255, 255, 0.8);
@@ -524,9 +441,7 @@ nav a:hover {
 
 .pricing-card h3 {
     margin: 0;
-
     font-size: 22px;
-
     color: #285eff;
 }
 
@@ -534,11 +449,9 @@ nav a:hover {
     margin: 18px 0;
 
     font-size: 52px;
-
     line-height: 1;
 
     font-weight: 800;
-
     letter-spacing: -0.05em;
 
     color: #111831;
@@ -546,9 +459,7 @@ nav a:hover {
 
 .price span {
     font-size: 16px;
-
     font-weight: 400;
-
     color: #6c7489;
 }
 
@@ -558,7 +469,6 @@ nav a:hover {
 
 .pricing-card ul {
     margin: 28px 0;
-
     padding-left: 0;
 
     list-style: none;
@@ -574,7 +484,6 @@ nav a:hover {
     content: "✓";
 
     display: inline-flex;
-
     align-items: center;
     justify-content: center;
 
@@ -588,7 +497,6 @@ nav a:hover {
     color: #ffffff;
 
     font-size: 12px;
-
     font-weight: 800;
 
     background:
@@ -600,7 +508,9 @@ nav a:hover {
 }
 
 
-/* ENTERPRISE */
+/* =========================
+   ENTERPRISE
+========================= */
 
 .enterprise-card {
     overflow: hidden;
@@ -611,7 +521,6 @@ nav a:hover {
             rgba(122, 55, 255, 0.18),
             transparent 35%
         ),
-
         rgba(255, 255, 255, 0.92);
 }
 
@@ -637,7 +546,6 @@ nav a:hover {
 
 .custom-price {
     font-size: 42px;
-
     margin-top: 26px;
 }
 
@@ -651,7 +559,6 @@ nav a:hover {
 
 .dark-button:hover {
     border-color: #8a35ff !important;
-
     color: #6535ff !important;
 }
 
@@ -662,7 +569,6 @@ nav a:hover {
 
 .contact {
     position: relative;
-
     overflow: hidden;
 
     color: #ffffff;
@@ -673,13 +579,11 @@ nav a:hover {
             rgba(0, 133, 255, 0.35),
             transparent 35%
         ),
-
         radial-gradient(
             circle at 85% 30%,
             rgba(139, 42, 255, 0.4),
             transparent 35%
         ),
-
         linear-gradient(
             120deg,
             #030a27,
@@ -701,7 +605,6 @@ nav a:hover {
 .contact p:not(.eyebrow) {
     margin-left: auto;
     margin-right: auto;
-
     color: rgba(255, 255, 255, 0.72);
 }
 
@@ -727,23 +630,18 @@ footer {
 
 .footer-content {
     display: flex;
-
     justify-content: space-between;
-
     gap: 30px;
 }
 
 .footer-content strong {
     color: #ffffff;
-
     letter-spacing: 0.2em;
 }
 
 .footer-content p {
     margin: 6px 0 0;
-
     color: #69738b;
-
     font-size: 14px;
 }
 
@@ -752,7 +650,7 @@ footer {
    MOBILE
 ========================= */
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
     .container {
         width: min(100% - 30px, 1120px);
@@ -772,7 +670,6 @@ footer {
 
     .hero {
         min-height: auto;
-
         padding: 145px 0 100px;
     }
 
@@ -790,14 +687,15 @@ footer {
 
     .features {
         grid-template-columns: 1fr;
-
         gap: 35px;
-
         margin-top: 50px;
     }
 
+    /* Pricing cards stack on mobile */
+
     .pricing-grid {
         grid-template-columns: 1fr;
+        gap: 24px;
     }
 
     .pricing-card {
