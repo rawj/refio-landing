@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Refio API — Engineering Thermodynamics API</title>
-    <meta name="description" content="Refio API provides thermodynamic and refrigeration engineering calculations through a simple API.">
+
+    <meta
+        name="description"
+        content="Refio API provides thermodynamic and refrigeration engineering calculations through a simple API."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,21 +18,30 @@
 
 <header>
     <div class="container nav">
-        <a href="/" class="logo">REFIO</a>
+
+        <a href="#" class="logo">REFIO</a>
 
         <nav>
             <a href="#api">API</a>
             <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
         </nav>
+
     </div>
 </header>
 
+
 <main>
 
+    <!-- HERO -->
+
     <section class="hero">
+
         <div class="container">
-            <p class="eyebrow">THERMODYNAMIC ENGINEERING API</p>
+
+            <p class="eyebrow">
+                THERMODYNAMIC ENGINEERING API
+            </p>
 
             <h1>
                 Engineering calculations.<br>
@@ -42,19 +55,35 @@
             </p>
 
             <div class="buttons">
-                <a href="#contact" class="button primary">Get API access</a>
-                <a href="#api" class="button secondary">Explore the API</a>
+
+                <a href="#contact" class="button primary">
+                    Get API access
+                </a>
+
+                <a href="#api" class="button secondary">
+                    Explore the API
+                </a>
+
             </div>
+
         </div>
+
     </section>
 
 
+    <!-- API -->
+
     <section id="api" class="section">
+
         <div class="container">
 
-            <p class="eyebrow">THE API</p>
+            <p class="eyebrow">
+                THE API
+            </p>
 
-            <h2>Thermodynamics as a service.</h2>
+            <h2>
+                Thermodynamics as a service.
+            </h2>
 
             <p>
                 Refio API makes engineering calculations accessible
@@ -62,35 +91,57 @@
                 libraries or calculation engines required.
             </p>
 
+
             <div class="features">
 
                 <div class="feature">
-                    <h3>Refrigerants</h3>
+
+                    <h3>
+                        Refrigerants
+                    </h3>
+
                     <p>
                         Thermodynamic properties for a wide range of
                         refrigerants.
                     </p>
+
                 </div>
 
+
                 <div class="feature">
-                    <h3>Engineering calculations</h3>
+
+                    <h3>
+                        Engineering calculations
+                    </h3>
+
                     <p>
                         Access calculation functions through simple
                         HTTP API requests.
                     </p>
+
                 </div>
 
+
                 <div class="feature">
-                    <h3>Built for developers</h3>
+
+                    <h3>
+                        Built for developers
+                    </h3>
+
                     <p>
                         Designed to integrate with engineering software,
                         automation systems and digital tools.
                     </p>
+
                 </div>
 
             </div>
 
+
+            <!-- CODE EXAMPLE -->
+
             <div class="code-block">
+
 <pre><code>GET /v1/enthalpy
 
 {
@@ -98,56 +149,151 @@
   "temperature": -10,
   "pressure": 26
 }</code></pre>
+
             </div>
 
         </div>
+
     </section>
 
+
+    <!-- PRICING -->
 
     <section id="pricing" class="section pricing">
+
         <div class="container">
 
-            <p class="eyebrow">PRICING</p>
+            <p class="eyebrow">
+                PRICING
+            </p>
 
-            <h2>Start for free.</h2>
+            <h2>
+                Start for free. Scale when you need.
+            </h2>
 
-            <div class="pricing-card">
 
-                <h3>Free</h3>
+            <div class="pricing-grid">
 
-                <div class="price">
-                    €0
-                    <span>/ month</span>
+
+                <!-- FREE -->
+
+                <div class="pricing-card">
+
+                    <h3>
+                        Free
+                    </h3>
+
+                    <div class="price">
+                        €0
+                        <span>/ month</span>
+                    </div>
+
+                    <p>
+                        Try the Refio API with up to
+                        <strong>1,000 credits per day.</strong>
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            API access
+                        </li>
+
+                        <li>
+                            1,000 credits / day
+                        </li>
+
+                        <li>
+                            Developer documentation
+                        </li>
+
+                        <li>
+                            No credit card required
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#contact" class="button primary">
+                        Request API access
+                    </a>
+
                 </div>
 
-                <p>
-                    Try the Refio API with up to
-                    <strong>1,000 credits per day.</strong>
-                </p>
 
-                <ul>
-                    <li>API access</li>
-                    <li>1,000 credits / day</li>
-                    <li>Developer documentation</li>
-                    <li>No credit card required</li>
-                </ul>
+                <!-- ENTERPRISE -->
 
-                <a href="#contact" class="button primary">
-                    Request API access
-                </a>
+                <div class="pricing-card enterprise-card">
+
+                    <h3>
+                        Enterprise
+                    </h3>
+
+                    <div class="price custom-price">
+                        Custom
+                    </div>
+
+                    <p>
+                        Tailored API access, usage limits and
+                        commercial terms for your organization.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Custom credit limits
+                        </li>
+
+                        <li>
+                            Custom pricing
+                        </li>
+
+                        <li>
+                            Priority support
+                        </li>
+
+                        <li>
+                            Commercial licensing
+                        </li>
+
+                        <li>
+                            Custom integrations
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        href="mailto:support@refio.com"
+                        class="button secondary dark-button"
+                    >
+                        Contact us
+                    </a>
+
+                </div>
 
             </div>
 
         </div>
+
     </section>
 
 
+    <!-- CONTACT -->
+
     <section id="contact" class="section contact">
+
         <div class="container">
 
-            <p class="eyebrow">GET STARTED</p>
+            <p class="eyebrow">
+                GET STARTED
+            </p>
 
-            <h2>Want to try Refio?</h2>
+            <h2>
+                Want to try Refio?
+            </h2>
 
             <p>
                 Contact us to request your API key and start testing
@@ -155,29 +301,48 @@
             </p>
 
             <a
-                href="mailto:support@refio.fi"
+                href="mailto:support@refio.com"
                 class="button primary"
             >
-                support@refio.fi
+                support@refio.com
             </a>
 
         </div>
+
     </section>
 
 </main>
 
 
+<!-- FOOTER -->
+
 <footer>
+
     <div class="container footer-content">
-        <div>
-            <strong>REFIO</strong>
-            <p>Engineering thermodynamics through an API.</p>
-        </div>
 
         <div>
-            <p>© 2026 Refio</p>
+
+            <strong>
+                REFIO
+            </strong>
+
+            <p>
+                Engineering thermodynamics through an API.
+            </p>
+
         </div>
+
+
+        <div>
+
+            <p>
+                © 2026 Refio
+            </p>
+
+        </div>
+
     </div>
+
 </footer>
 
 </body>
