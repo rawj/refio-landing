@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Refio API — Engineering Thermodynamics API</title>
+
+    <meta
+        name="description"
+        content="Refio API provides thermodynamic and refrigeration engineering calculations through a simple API."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+
+        <a href="#" class="logo">REFIO</a>
+
+        <nav>
+            <a href="#api">API</a>
+            <a href="#get-started">Get Started</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                THERMODYNAMIC ENGINEERING API
+            </p>
+
+            <h1>
+                Engineering calculations.<br>
+                Available through an API.
+            </h1>
+
+            <p class="hero-text">
+                Refio provides fast and reliable thermodynamic and
+                refrigeration engineering calculations for software,
+                automation and engineering applications.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#get-started" class="button primary">
+                    Get started
+                </a>
+
+                <a href="#api" class="button secondary">
+                    Explore the API
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- API -->
+
+    <section id="api" class="section">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                THE API
+            </p>
+
+            <h2>
+                Thermodynamics as a service.
+            </h2>
+
+            <p>
+                Refio API makes engineering calculations accessible
+                directly from your applications. No local thermodynamic
+                libraries or calculation engines required.
+            </p>
+
+
+            <div class="features">
+
+                <div class="feature">
+
+                    <h3>
+                        Refrigerants
+                    </h3>
+
+                    <p>
+                        Thermodynamic properties for a wide range of
+                        refrigerants.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <h3>
+                        Engineering calculations
+                    </h3>
+
+                    <p>
+                        Access calculation functions through simple
+                        HTTP API requests.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <h3>
+                        Built for developers
+                    </h3>
+
+                    <p>
+                        Designed to integrate with engineering software,
+                        automation systems and digital tools.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CODE EXAMPLE -->
+
+            <div class="code-block">
+
+<pre><code>GET /v1/enthalpy
+
+{
+  "refrigerant": "R744",
+  "temperature": -10,
+  "pressure": 26
+}</code></pre>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GET STARTED -->
+
+    <section id="get-started" class="section">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                GET STARTED
+            </p>
+
+            <h2>
+                Simple. Just like any other API.
+            </h2>
+
+            <p>
+                Getting started with Refio is simple. Get your API key,
+                add it to your requests and start making thermodynamic
+                engineering calculations.
+            </p>
+
+            <p>
+                No local libraries or complex setup required. Refio is
+                designed to work like any other modern API.
+            </p>
+
+            <div class="buttons">
+
+                <a
+                    href="mailto:support@refio.fi"
+                    class="button primary"
+                >
+                    Contact us
+                </a>
+
+            </div>
+
+            <p>
+                Contact
+                <a href="mailto:support@refio.fi">
+                    support@refio.fi
+                </a>
+                to get your API key and discuss access.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section contact">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                CONTACT
+            </p>
+
+            <h2>
+                Ready to use Refio?
+            </h2>
+
+            <p>
+                Contact us to get started with Refio API.
+            </p>
+
+            <a
+                href="mailto:support@refio.fi"
+                class="button primary"
+            >
+                support@refio.fi
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <strong>
+                REFIO
+            </strong>
+
+            <p>
+                Engineering thermodynamics through an API.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                © 2026 Refio
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
